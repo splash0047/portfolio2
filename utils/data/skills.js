@@ -13,7 +13,6 @@ export const skillsData = [
   'AWS',
   'Bootstrap',
   'Docker',
-  'Go',
   'Figma',
   'Firebase',
   'MaterialUI',
@@ -23,7 +22,7 @@ export const skillsData = [
   'Next JS',
   'MySQL',
   'C++',
-  'Python'
+  'Python',
 
 ]
 
