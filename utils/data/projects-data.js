@@ -45,27 +45,27 @@ export const projectsData = [
     code: 'https://github.com/splash0047/medi-predictor-ai',
     demo: '',
   },
-  {
+{
     id: 3,
-    name: 'StackSense Web App',
+    name: 'Orbital CLI',
     description:
-      'Currently developing a full-stack AI-powered app using modern frameworks. Implements type-safe database access with Prisma, seamless client-server communication with tRPC, and scalable PostgreSQL via Neon. Focused on creating a responsive and efficient architecture.',
+      'Developed an AI-powered command-line interface designed to integrate Google Gemini AI directly into terminal workflows. Implements secure OAuth device-flow authentication, persistent session management via PostgreSQL, and modular tool-calling support. Built with a monorepo architecture using Node.js for the backend and Next.js for the web-based approval portal.',
     tools: [
-      'Next.js',
-      'TypeScript',
-      'Prisma',
-      'tRPC',
-      'Neon (PostgreSQL)',
-      'Tailwind CSS',
       'Node.js',
-      'Vercel',
+      'Next.js',
+      'PostgreSQL',
+      'Prisma',
+      'TypeScript',
+      'Google Gemini API',
+      'Commander.js',
+      'Chalk',
       'Docker',
+      'Vercel',
       'Git',
-      'GitHub',
-      'Postman'
+      'GitHub'
     ],
     role: 'Full Stack Developer',
-    code: 'https://github.com/splash0047/vibe',
+    code: 'https://github.com/splash0047/orbital-cli',
     demo: '',
   },
 ];
