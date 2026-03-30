@@ -42,8 +42,8 @@ export const projectsData = [
       'GitHub'
     ],
     role: 'Machine Learning Developer',
-    code: 'https://github.com/splash0047/medi-predictor-ai',
-    demo: '',
+    code: 'https://github.com/splash0047/health',
+    demo: 'https://healthpredicator.netlify.app/',
   },
 {
     id: 3,
@@ -68,6 +68,24 @@ export const projectsData = [
     code: 'https://github.com/splash0047/orbital-cli',
     demo: '',
   },
+  {
+    id: 4,
+    name: 'Job Portal Platform',
+    description:
+      'Built a full-stack job portal for job seekers and recruiters with job posting, applications, and profile management. Implemented authentication, role-based access control, and RESTful APIs for scalable workflows.',
+    tools: [
+      'React',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Python',
+      'Git',
+      'GitHub'
+    ],
+    role: 'Full Stack Developer',
+    code: 'https://github.com/splash0047/Jobportal',
+    demo: 'https://jobportalplatform.netlify.app/',
+  }
 ];
 
 

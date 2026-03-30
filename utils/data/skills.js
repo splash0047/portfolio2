@@ -16,13 +16,11 @@ export const skillsData = [
   'Figma',
   'Firebase',
   'MaterialUI',
-  'Nginx',
-  'Strapi',
   'Node JS',
-  'Next JS',
-  'MySQL',
   'C++',
   'Python',
+  'Claude AI',
+  
 
 ]
 
