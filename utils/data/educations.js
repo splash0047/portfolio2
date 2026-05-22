@@ -1,9 +1,9 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2023 - Present",
-    institution: "D.Y.Patil College Of Engineering Akurdi",
+    title: "Bachelor of Engineering in Information Technology",
+    duration: "2023 - Present (CGPA: 8.74)",
+    institution: "D Y Patil College of Engineering, Akurdi, Pune",
   },
   {
     id: 2,

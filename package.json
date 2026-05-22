@@ -13,6 +13,8 @@
     "@emailjs/browser": "^4.3.1",
     "@next/third-parties": "^15.1.6",
     "axios": "^1.6.8",
+    "baseline-browser-mapping": "^2.9.11",
+    "caniuse-lite": "^1.0.30001761",
     "lottie-react": "^2.4.1",
     "next": "^15.1.6",
     "nodemailer": "^6.9.15",
