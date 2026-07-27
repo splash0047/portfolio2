@@ -3,6 +3,7 @@
 
 
 import * as React from 'react';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 function ProjectCard({ project }) {
 
@@ -63,8 +64,68 @@ function ProjectCard({ project }) {
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
+          {project.code && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">github:</span>
+              <span className="text-gray-400">{` '`}</span>
+              <a
+                href={project.code}
+                target="_blank"
+                rel="noopener noreferrer"
+                id={`project-code-link-${project.id}`}
+                className="text-amber-300 hover:underline cursor-pointer"
+              >
+                {project.code}
+              </a>
+              <span className="text-gray-400">{`',`}</span>
+            </div>
+          )}
+          {project.demo && (
+            <div className="ml-4 lg:ml-8 mr-2">
+              <span className="text-white">demo:</span>
+              <span className="text-gray-400">{` '`}</span>
+              <a
+                href={project.demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                id={`project-demo-link-${project.id}`}
+                className="text-amber-300 hover:underline cursor-pointer"
+              >
+                {project.demo}
+              </a>
+              <span className="text-gray-400">{`',`}</span>
+            </div>
+          )}
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
+      </div>
+
+      {/* Action buttons footer */}
+      <div className="border-t border-indigo-900/60 px-4 lg:px-8 py-3.5 flex items-center justify-end gap-4 bg-[#0a0d37]/45 rounded-b-lg">
+        {project.code && (
+          <a
+            href={project.code}
+            target="_blank"
+            rel="noopener noreferrer"
+            id={`project-card-github-${project.id}`}
+            className="flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs md:text-sm font-medium text-pink-500 border border-pink-500/30 bg-pink-500/5 hover:bg-pink-500/15 hover:border-pink-500/80 transition-all duration-300 hover:scale-105 cursor-pointer shadow-[0_0_10px_rgba(236,72,153,0.15)] hover:shadow-[0_0_15px_rgba(236,72,153,0.3)]"
+          >
+            <FaGithub size={16} />
+            <span>GitHub</span>
+          </a>
+        )}
+        {project.demo && (
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            id={`project-card-demo-${project.id}`}
+            className="flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs md:text-sm font-medium text-[#16f2b3] border border-[#16f2b3]/30 bg-[#16f2b3]/5 hover:bg-[#16f2b3]/15 hover:border-[#16f2b3]/80 transition-all duration-300 hover:scale-105 cursor-pointer shadow-[0_0_10px_rgba(22,242,179,0.15)] hover:shadow-[0_0_15px_rgba(22,242,179,0.3)]"
+          >
+            <FaExternalLinkAlt size={12} />
+            <span>Live Demo</span>
+          </a>
+        )}
       </div>
     </div>
   );
