@@ -10,6 +10,8 @@ const AboutSection = dynamic(() => import("./components/homepage/about"), { ssr:
 const Experience = dynamic(() => import("./components/homepage/experience"), { ssr: false });
 const Skills = dynamic(() => import("./components/homepage/skills"), { ssr: false });
 const Projects = dynamic(() => import("./components/homepage/projects"), { ssr: false });
+const Education = dynamic(() => import("./components/homepage/education"), { ssr: false });
+const Certifications = dynamic(() => import("./components/homepage/certifications"), { ssr: false });
 const ContactSection = dynamic(() => import("./components/homepage/contact"), { ssr: false });
 
 export default function Home() {
@@ -40,6 +42,8 @@ export default function Home() {
       <Experience />
       <Skills />
       <Projects />
+      <Education />
+      <Certifications />
       <ContactSection />
     </>
   );

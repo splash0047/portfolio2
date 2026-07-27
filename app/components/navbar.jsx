@@ -19,6 +19,7 @@ function Navbar() {
             { href: "/#experience", label: "EXPERIENCE" },
             { href: "/#skills", label: "SKILLS" },
             { href: "/#education", label: "EDUCATION" },
+            { href: "/#certifications", label: "CERTIFICATIONS" },
             { href: "/blog", label: "BLOGS" },
             { href: "/#projects", label: "PROJECTS" },
           ].map((item) =>
